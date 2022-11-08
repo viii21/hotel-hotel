@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>Forms</title>
+	</head>
+	<body>
+		<form action="http://www.example.com/review.php" method="get">
+			<fieldset>
+				<legend>Your Details:</legend>
+                <!--Info here-->
+				<label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br />
+				<label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br />
+                <label>SSN No: <input type="integer" name="SSN No" size="30" maxlength="100"></label><br />
+                <label>Phone No: <input type="inetger" name="Phone No" size="30" maxlength="100"></label><br />
+                <label>Password: <input type="inetger" name="Password" size="30" maxlength="100"></label><br />
+                <label>Date: <input type="inetger" name="Date" size="30" maxlength="100"></label><br />
+                <label>Time: <input type="inetger" name="Time" size="30" maxlength="100"></label><br />
+                <label>Major: <input type="text" name="Major" size="30" maxlength="100"></label><br />
+                American citizen?</br>
+                <label><input type="radio" name="rating" value="yes" /> Yes</label><br />
+                <label><input type="radio" name="rating" value="NO" /> No</label><br />
+			</fieldset><br />
+			<fieldset>
+				<legend>Your Review:</legend>
+				<p>
+					<label for="hear-about">How did you hear about us?</label>
+					<select name="referrer" id="hear-about">
+						<option value="google">Google</option>
+						<option value="friend">Friend</option>
+						<option value="advert">Advert</option>
+						<option value="other">Other</option>
+					</select>
+				</p>
+				<p>
+					Would you visit again?<br />
+					<label><input type="radio" name="rating" value="yes" /> Yes</label>
+					<label><input type="radio" name="rating" value="no" /> No</label>
+					<label><input type="radio" name="rating" value="maybe" /> Maybe</label>
+				</p>
+				<p>
+					<label for="comments">Comments:</label><br />
+					<textarea rows="4" cols="40" id="comments"></textarea>
+				</p>
+				<label><input type="checkbox" name="subscribe" checked="checked" /> Sign me up for email updates</label><br />
+				<input type="submit" value="Submit review" />
+                <input type="submit" value="Clear" />
+
+			</fieldset>
+		</form>
+
+       <footer class="footer">
+            <ul class="footer_ul_amrc">
+            <li><h4><a href="https://validator.unl.edu/?showsource=yes&doc=https%3A%2F%2Fviii21.github.io%2Fhotel-hotel%2F" target="_blank">Page Validity</a></h4></li> 
+            <br>
+            <li><h4><a href="https://github.com/viii21/hotel-hotel" target="_blank">See The Code</a></h4></li>
+            <br>
+            <!--footer_ul_amrc ends here-->
+        </footer>
+
+            <!-- bootstraps 4.5.3 -->
+            <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js' integrity='sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx' crossorigin='anonymous'></script>
+            <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+
+            <!-- jqueries:  -->
+            <script src='https://code.jquery.com/jquery-3.6.0.min.js' integrity='sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=' crossorigin='anonymous'></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+            </div>
+
+	</body>
+</html>
